@@ -33,7 +33,7 @@ public class DBAdapter
     DatabaseHelper DBHelper;
     SQLiteDatabase db;
 
-    static final String DATABASE_CREATE = "create table periodic_table (_name text, atomic_number" +
+    static final String DATABASE_CREATE = "create table periodic_table (name text, atomic_number" +
             " " + "integer " + "primary key, " + "atomic_weight real, symbol text, " +
             "melting_point real," + "boiling_point real, density real, phase text);";
 
